@@ -8,7 +8,7 @@ pipeline{
 	stages{
 		stage('Build'){
 			steps{
-				//bash 'node --version'
+				sh 'node --version'
 				//bash 'mvn --version'
 				echo 'Build in another version'
 				
